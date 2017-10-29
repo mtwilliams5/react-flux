@@ -1,7 +1,7 @@
 "use strict";
 
 var React = require('react');
-var Input = require('../common/textInput');
+var Input = require('../common/textInput.jsx');
 
 var AuthorForm = React.createClass({
     propTypes: {

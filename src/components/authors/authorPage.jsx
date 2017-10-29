@@ -4,7 +4,7 @@ var React = require('react');
 var Router = require('react-router');
 var Link = require('react-router').Link;
 var AuthorApi = require('../../api/authorApi');
-var AuthorList = require('./authorList');
+var AuthorList = require('./authorList.jsx');
 
 var AuthorPage = React.createClass({
     getInitialState: function() {

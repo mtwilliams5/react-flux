@@ -3,7 +3,7 @@
 var React = require('react');
 var Router = require('react-router');
 var toastr = require('toastr');
-var AuthorForm = require('./authorForm');
+var AuthorForm = require('./authorForm.jsx');
 var AuthorApi = require('../../api/authorApi');
 
 var ManageAuthorPage = React.createClass({

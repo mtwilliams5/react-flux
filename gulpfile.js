@@ -1,7 +1,7 @@
 "use strict";
 
 var gulp = require('gulp');
-var connect = require('gulp-connect'); //Runs a local devs server
+var connect = require('gulp-connect'); //Runs a local dev server
 var open = require('gulp-open'); //Opens a URL in a web browser
 var browserify = require('browserify'); //Bundles JS
 var reactify = require('reactify'); //Transforms React JSX to JS
@@ -25,7 +25,7 @@ var config = {
             'node_modules/toastr/toastr.css'
         ],
         dist: './dist',
-        mainJs: './src/main.js'
+        mainJs: './src/main.jsx'
     }
 }
 
